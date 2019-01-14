@@ -1,0 +1,150 @@
+#header-img {
+    max-width: 10%;
+    height: auto;       
+}
+#body {
+    background-image: url("../styles/threewolvesmoon.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#nav-bar {    
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; 
+    top: 0; 
+    right: 0px;
+    width: 100%; 
+}
+#nav-bar a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 20px;    
+    margin-right: 20px;
+}
+#business {
+    font-size: 50px;
+    position: center;
+} 
+#contact {
+    font-size: 20px;
+}
+#guarantee {
+    font-size: 20px;
+}
+#buy {
+    font-size: 20px;
+}  
+#contact:hover {
+    background: #ddd;
+    color: black;
+}
+#guarantee:hover {
+    background: #ddd;
+    color: black;
+}
+#buy:hover {
+    background: #ddd;
+    color: black;
+} 
+  
+#header {
+    margin-bottom: 200px; 
+  }
+ 
+#form {
+    width: 300px;
+    margin: auto;
+}
+
+h2 {
+    background: rgb(119, 62, 62);
+    color: white;
+    margin: 0px;
+}
+
+
+p { 
+    margin: 1vw;
+    text-indent: 1vw;
+}
+#flex-box1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;    
+    margin-left: 5vw;
+    margin-right: 5vw;
+    
+}
+#video1 {
+    width:45%;
+    flex-shrink: 0;
+    
+}
+h4{
+    background-color: rgb(241, 222, 185);
+}
+#promises {
+    flex-shrink: 2;
+    width: 45%;
+    background-color: rgb(241, 222, 185);
+    border: 5px solid rgb(236, 133, 14); 
+    align-self: flex-start;
+    
+}
+
+#flex-box2 {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;      
+      margin-left: 5vw;
+      margin-right: 5vw;
+      
+}
+#item1 {
+    flex-basis: 30%;
+    background-color: rgb(241, 222, 185);
+    border: 5px solid rgb(236, 133, 14);
+    margin-top: 10px;
+}
+#item2 {
+    flex-basis: 30%;
+    background-color: rgb(241, 222, 185);
+    border: 5px solid rgb(236, 133, 14);
+    margin-top: 10px;
+    
+}
+#item3 {
+    flex-basis: 30%;
+    background-color: rgb(241, 222, 185);
+    border: 5px solid rgb(236, 133, 14);
+    margin-top: 10px;
+    
+}
+#item4 {
+    flex-basis: 30%;
+    background-color: rgb(241, 222, 185);
+    border: 5px solid rgb(236, 133, 14);
+    margin-top: 10px;
+    
+}
+
+
+@media (max-width: 768px) {
+    #header {
+        font-size: 10px;
+        margin-bottom: 60px;
+    }
+    #nav-bar a {
+        font-size: 12px;
+        padding: 2px 2px;    
+        margin-right: 20px;
+    }
+    #flex-box2 {
+        margin: 0;
+        flex-direction: column;
+    }   
+}
